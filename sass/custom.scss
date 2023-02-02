@@ -1,0 +1,112 @@
+$primary: #5265E1;
+$secondary: #FA5959;
+$success: #808080;
+
+$nav-tabs-border-width: none;
+$nav-tabs-link-hover-border-color: none;
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+* {
+    font-family: Helvetica;
+    letter-spacing: 1px;
+}
+
+.fontsize50 {
+    font-size: 50px;
+}
+
+.textGray {
+    color: $success;
+}
+
+.bgPurple {
+    background-color: $primary;
+}
+
+.bgRed {
+    background-color: $secondary;
+}
+
+
+.loginButton {
+    border-style: solid;
+    border-width: thin;
+    color: #ffffff;
+    border-color: $secondary;
+    background-color: $secondary;
+}
+
+.loginButton:hover {
+    color: $secondary;
+    background-color: #ffffff;
+}
+
+
+.purpleButton {
+    border-style: solid;
+    border-width: thin;
+    color: #ffffff;
+    border-color: $primary;
+    background-color: $primary;
+}
+
+.purpleButton:hover {
+    color: $primary;
+    background-color: #ffffff;
+}
+
+
+.redHover2:hover {
+    color: $secondary;
+}
+
+.redHover {
+    border-bottom-style: solid;
+    border-width: thin;
+    border-color: #000000;
+    color: #000000;
+}
+
+.redHover:hover {
+    border-bottom: thick solid $secondary;
+    color: $secondary;
+}
+
+.borderBottom {
+    border-bottom: thin solid $success;
+}
+
+.navlinkfocus:focus {
+    border-bottom: thick solid $secondary;
+}
+
+.footer {
+    color: #ffffff;
+}
+
+.footer:hover {
+    color: $secondary;
+}
+
+.nav-tabs {
+    border-color: #ffffff;
+}
+
+.fireFox {
+    border-style: solid;
+    border-width: thin;
+    color: #000000;
+    border-color: #ffffff;
+    background-color: #ffffff;
+}
+
+.fireFox:hover {
+    border-color: $black;
+}
+
+
+.social:hover {
+    fill: $secondary;
+}
