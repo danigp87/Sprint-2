@@ -15,3 +15,5 @@ col-12 col-md-3 = en normal ocupa doce y en tamaño medio(md) ocupa 3
 col-4 offset-2 = deja una columna de 2 antes de los 4
 col-3 order-md-2 = si la columna está en la posición 1 o 3 por ejemplo, la pondrá en la 2 cuando sea tamaño medio
 
+
+position-relative en el div general y position-absolute en el div de dentro

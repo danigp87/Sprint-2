@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,500;1,100&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="../css/custom.min.css">
+    <link rel="stylesheet" href="../sass/custom.css">
 
     <title>SPRINT 2 (Nivel 3)</title>
 </head>
@@ -40,12 +40,9 @@
     </div>
 
     <div class="container pt-5">
-
         <div class="row align-items-center">
-            <div class="col-12 col-md-6 ">
-                <div class="col-12 col-md-6 d-flex position-absolute rectangle"></div><img
-                    src="../Recursos/Imagenes/illustration-hero.svg" class="img-fluid" alt="Responsive image">
-            </div>
+            <div class="col-12 col-md-6"><img src="../Recursos/Imagenes/illustration-hero.svg" class="img-fluid"
+                    alt="Responsive image"></div>
             <div class="col-12 col-md-6 pe-5 order-md-first">
                 <div class="row d-flex fw-bold fontsize50 pb-4 text-center text-md-start">A Simple Bookmart Manager
                 </div>
@@ -82,20 +79,20 @@
         <div class="row justify-content-center">
             <ul class="nav nav-tabs nav-fill col-12 col-md-9" id="myTab" role="tablist">
                 <li class="nav-item" role="presentation">
-                    <button class="col-12 col-md-4 border-bottom borderBottom redHover nav-link active" id="home-tab"
-                        data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home"
-                        aria-selected="true">Simple
+                    <button class="col-12 col-md-4 border-bottom borderBottom redHover nav-link active"
+                        id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab"
+                        aria-controls="home" aria-selected="true">Simple
                         Bookmarking</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="col-12 col-md-4 border-bottom borderBottom redHover nav-link" id="profile-tab"
-                        data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile"
-                        aria-selected="false">Speedy
+                    <button class="col-12 col-md-4 border-bottom borderBottom redHover nav-link"
+                        id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab"
+                        aria-controls="profile" aria-selected="false">Speedy
                         Searching</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="col-12 col-md-4 border-bottom borderBottom redHover nav-link" id="messages-tab"
-                        data-bs-toggle="tab" data-bs-target="#messages" type="button" role="tab"
+                    <button class="col-12 col-md-4 border-bottom borderBottom redHover nav-link"
+                        id="messages-tab" data-bs-toggle="tab" data-bs-target="#messages" type="button" role="tab"
                         aria-controls="messages" aria-selected="false">Easy
                         Sharing</button>
                 </li>
@@ -107,11 +104,8 @@
         <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">
             <div class="container pt-5 pb-5" href="SB">
                 <div class="row align-items-center pt-5">
-                    <div class="col-12 col-md-6 pe-5">
-                        <div class="col-12 col-md-6 d-flex rectangle2"></div><img
-                            src="../Recursos/Imagenes/illustration-features-tab-1.svg" class="img-fluid"
-                            alt="Responsive image">
-                    </div>
+                    <div class="col-12 col-md-6 pe-5"><img src="../Recursos/Imagenes/illustration-features-tab-1.svg"
+                            class="img-fluid" alt="Responsive image"></div>
                     <div class="col-12 col-md-6 ps-5">
                         <div class="row d-flex fw-bold fontsize50 pt-5 pb-4 text-center text-md-start">Bookmart in one
                             click
@@ -134,11 +128,8 @@
         <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">
             <div class="container pt-5 pb-5" href="SB">
                 <div class="row align-items-center pt-5">
-                    <div class="col-12 col-md-6 pe-5">
-                        <div class="col-12 col-md-6 rectangle2"></div><img
-                            src="../Recursos/Imagenes/illustration-features-tab-2.svg" class="img-fluid"
-                            alt="Responsive image">
-                    </div>
+                    <div class="col-12 col-md-6 pe-5"><img src="../Recursos/Imagenes/illustration-features-tab-2.svg"
+                            class="img-fluid" alt="Responsive image"></div>
                     <div class="col-12 col-md-6 ps-5">
                         <div class="row d-flex fw-bold fontsize50 pt-5 pb-4 text-center text-md-start">Intelligent
                             search
@@ -160,11 +151,8 @@
         <div class="tab-pane" id="messages" role="tabpanel" aria-labelledby="messages-tab">
             <div class="container pt-5 pb-5" href="SB">
                 <div class="row align-items-center pt-5">
-                    <div class="col-12 col-md-6 pe-5">
-                        <div class="col-12 col-md-6 rectangle2 mb-5"></div><img
-                            src="../Recursos/Imagenes/illustration-features-tab-3.svg" class="img-fluid"
-                            alt="Responsive image">
-                    </div>
+                    <div class="col-12 col-md-6 pe-5"><img src="../Recursos/Imagenes/illustration-features-tab-3.svg"
+                            class="img-fluid" alt="Responsive image"></div>
                     <div class="col-12 col-md-6 ps-5">
                         <div class="row d-flex fw-bold fontsize50 pt-5 pb-4 text-center text-md-start">Share you
                             bookmarks
@@ -197,11 +185,11 @@
     </div>
 
 
-    <div class="container pt-5 d-flex align-items-center justify-content-center justify-content-md-center justify-content-sm-center justify-content-lg-center">
-        <div class="card-group justify-content-center justify-content-md-center justify-content-sm-center justify-content-lg-center">
+    <div class="container pt-5 d-flex justify-content-center align-items-center">
+        <div class="card-group">
             <div class="row">
 
-                <div class="col-12 col-md-4 pe-4 justify-content-center justify-content-md-center justify-content-sm-center justify-content-lg-center">
+                <div class="col-12 col-md-4 pe-4">
                     <div class="card border-0 border-rounded rounded-4 shadow align-items-center pt-5"
                         style="width: 20rem;">
                         <img src="../Recursos/Imagenes/logo-chrome.svg" class="card-img-top" alt="..."
@@ -225,7 +213,7 @@
                 </div>
             </div>
 
-            <div class="col-12 col-md-4 pt-2 pe-4 justify-content-center justify-content-md-center justify-content-sm-center justify-content-lg-center">
+            <div class="col-12 col-md-4 pt-2 pe-4">
                 <div class="card border-0 border-rounded rounded-4 shadow align-items-center pt-5"
                     style="width: 20rem;">
                     <img src="../Recursos/Imagenes/logo-firefox.svg" class="card-img-top" alt="..." style="width: 53%">
@@ -247,7 +235,7 @@
                 </div>
             </div>
 
-            <div class="col-12 col-md-4 pt-4 pb-5 justify-content-center justify-content-md-center justify-content-sm-center justify-content-lg-center">
+            <div class="col-12 col-md-4 pt-4 pb-5">
                 <div class="card border-0 border-rounded rounded-4 shadow align-items-center pt-5"
                     style="width: 20rem;">
                     <img src="../Recursos/Imagenes/logo-opera.svg" class="card-img-top" alt="..." style="width: 46%">
@@ -273,21 +261,19 @@
     </div>
 
     <div class="container pt-5">
-       <!--  <div class="col-12 col-md-12 col-sm-12"> -->
-            <div class="row">
         <div class="col-12 d-flex text-center justify-content-center fw-bold fontsize50">Frequently Asked Questions
         </div>
         <div class="row">
             <div class="col-md-3"></div>
-            <div class="col-md-12 col-lg-6 col-sm-12 col-12 d-flex text-center fs-5 textGray pt-3 pb-5">Here are some of our FAQs. If
+            <div class="col-md-6 col-12 d-flex text-center fs-5 textGray pt-3 pb-5">Here are some of our FAQs. If
                 you have any other questions you'd like answered please feel free to email us.</div>
             <div class="col-md-3"></div>
         </div>
-    <!-- </div> -->
+    </div>
 
-    <!-- <div class="container pt-3"> -->
-        <div class="row justify-content-center pt-3">
-            <div class="col-12 col-sm-12 col-md-10 col-lg-6 align-items-center">
+    <div class="container pt-3">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-6 align-items-center">
                 <div class="accordion accordion-flush" id="accordionFlushExample">
                     <div class="accordion-item">
                         <div class="accordion-header" id="flush-headingOne">
@@ -368,35 +354,30 @@
                 More info</button>
         </div>
     </div>
-<!-- </div> -->
-    </div>
 
 
     <div class="container-fluid bgPurple pt-5">
         <div class="row justify-content-center">
-            <div class="col-12 col-sm-10 col-md-8 col-lg-6 col-xl-4  justify-content-center">
+            <div class="col-12 col-md-4 justify-content-center">
                 <div class="mb-3">
                     <p class="text text-white text-center pt-3 pb-2">35.000+ ALREADY JOINED</p>
                     <p class="text text-white text-center fs-1 pb-3">Stay up-to-date with what we're doing</p>
                     <div class="row justify-content-center pb-5">
-                        <form
-                            class="col-12 justify-content-center pt-1 pb-1 needs-validation"
-                            novalidate>
-                           <div class="row">
-                            <div class="position-relative col-md-8 col-12 col-sm-12 d-flex">
-                                <input type="email" class="form-control" id="validationTooltip05"
-                                    placeholder="Enter your email adress" required>
+                        <form class="col-md-8 col-12 d-flex justify-content-center pt-1 pb-1 needs-validation" novalidate>
+                            <div class="col-md-8 position-relative">
+                                <input type="email" class="form-control" id="validationTooltip05" placeholder="Enter your email adress"  required>
                                 <div class="invalid-tooltip">
                                     Whoops, make sure it's an email
                                 </div>
-                            </div>
-                            <div class="col-md-4 col-sm-12 col-12 d-flex justify-content-center pt-1 pb-1">
+                              </div>
+
+                 
+                            <div class="col-md-4 col-12 d-flex justify-content-center pt-1 pb-1">
                                 <button type="submit"
-                                class="d-flex col-12 justify-content-center border-rounded rounded-3 shadow bgRed pt-2 pb-2 loginButton">Contact
-                                Us</button>
-                            </div></div>
+                                    class="d-flex col-12 justify-content-center border-rounded rounded-3 shadow bgRed pt-2 pb-2 ps-3 pe-3 loginButton">Contact
+                                    Us</button>
+                            </div>
                         </form>
-                        
                     </div>
                 </div>
             </div>
@@ -433,22 +414,22 @@
     <script>
         (() => {
             'use strict'
-
+          
             // Fetch all the forms we want to apply custom Bootstrap validation styles to
             const forms = document.querySelectorAll('.needs-validation')
-
+          
             // Loop over them and prevent submission
             Array.from(forms).forEach(form => {
-                form.addEventListener('submit', event => {
-                    if (!form.checkValidity()) {
-                        event.preventDefault()
-                        event.stopPropagation()
-                    }
-
-                    form.classList.add('was-validated')
-                }, false)
+              form.addEventListener('submit', event => {
+                if (!form.checkValidity()) {
+                  event.preventDefault()
+                  event.stopPropagation()
+                }
+          
+                form.classList.add('was-validated')
+              }, false)
             })
-        })()
+          })()
     </script>
 </body>
 
